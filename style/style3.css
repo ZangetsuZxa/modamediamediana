@@ -1,0 +1,61 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: white;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.numero {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 4px;
+  background: #e0e0e0;
+  border-radius: 6px;
+  cursor: grab;
+}
+
+.numero.centro {
+  background: #1d72b8;
+  color: white;
+  font-weight: bold;
+}
+
+button {
+  padding: 8px 14px;
+  background: #1d72b8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#resultado {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+header {
+    background: lightskyblue;
+    width: auto;
+    padding: 2px 0 0 20px;
+    text-align: center;
+    border: 1px solid;
+}
+
+#numbersArea {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 120px; 
+}
+
+#resolverBtn {
+  display: block;
+  margin: 20px auto;
+}
+
+#resultado {
+  text-align: center;
+}
